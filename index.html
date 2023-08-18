@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cuentas Pymes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icono.png">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="https://ignacio-j3.github.io/huaso_friki/">Huaso Friki</a>
+                </div>
+                
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#perfiles" onclick="seleccionar()">TIENDAS</a></li>
+                        <li><a href="#info" onclick="seleccionar()">COMO<br>‎ ‎ ‎ AGREGARME</a></li>
+                        <li><a href="https://ignacio-j3.github.io/huaso_friki/" onclick="seleccionar()">PAGINA<br>‎ ‎ ‎ PRINCIPAL</a></li>
+                        
+                     </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                   <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>    
+
+        <!--inicio-->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="images/inicio.png" alt="">
+                </div>
+                <h1>Tiendas Pymes</h1>
+                <p>
+                    Aqui hay una lista de perfiles de tiendas Pymes.
+                </p>
+            </div>
+        </section>
+
+    </header>
+
+
+    <main class="product-menu">
+        <div class="container">
+
+            <div class="product">
+                <h2 class="title">Tiendas</h2>
+                <img class="hoja" src="images/esquina.png" alt="">
+            </div>
+
+        <!--Barrera de informacion del menu o contenido-->
+            <div id="perfiles" class="menu-nav">
+                <div id="pro1" class="tab active">1</div>
+                <div id="pro2" class="tab">2</div>
+                <div id="pro3" class="tab">3</div>
+            </div>
+
+       <!--Pagina 1 de tiendas-->
+            <div class="pro1 tab-content">
+                <div class="box-container-1">
+
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Nada por el momento</h3>
+                            <p>
+                                <br>
+                                <a href="">
+                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        <!--Pagina 2 tiendas 2-->
+            <div class="pro2 tab-content">
+                <div class="box-container-2">
+
+                    <div class="box-1">
+                        <div class="image">
+                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Nada por el momento</h3>
+                            <p>
+                                <br>
+                                <a href="">
+                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                               
+                </div>
+            </div>
+
+        <!--Pagina 3 de carga con contenido de los productos-->
+            <div class="pro3 tab-content">
+                <div class="box-container-3">
+
+                    <div class="box-3">
+                        <div class="image">
+                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Nada por el momento</h3>
+                            <p>
+                                <br>
+                                <a href="">
+                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+    <div id="info" class="informacion">
+        <h1>Como añadir mi cuenta?</h1>
+        <p>
+            Para agregar tu pyme debes hablarme o consultarme por whatsapp.
+        </p>
+        <a href="https://api.whatsapp.com/send?phone=+56934532754&text=Como%20puedo%20agregar%20mi%20cuenta%20anime%20a%20la%20p%C3%A1gina%20web?" class="btn"><img src="images/whatsapp.png" alt=""><br>Whatsapp</a>
+    </div>
+
+    <footer class="footer container">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <img class="logo-2" src="images/logo.png" alt="">
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
