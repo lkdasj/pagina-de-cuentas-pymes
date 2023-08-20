@@ -416,7 +416,6 @@ footer .arriba{
     }
 
     .menu-nav {
-        flex-direction: column;
         align-items: center;
     }
 
