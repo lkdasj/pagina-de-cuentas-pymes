@@ -15,6 +15,7 @@
 
     <header>
 
+        <!--menu barra-->
         <div id="inicio" class="contenedor-header">
             <header>
                 <div class="logo">
@@ -24,7 +25,7 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                        <li><a href="#perfiles" onclick="seleccionar()">TIENDAS</a></li>
+                        <li><a href="#tienda" onclick="seleccionar()">TIENDAS</a></li>
                         <li><a href="#info" onclick="seleccionar()">COMO<br>‎ ‎ ‎ AGREGARME</a></li>
                         <li><a href="https://ignacio-j3.github.io/huaso_friki/" onclick="seleccionar()">PAGINA<br>‎ ‎ ‎ PRINCIPAL</a></li>
                      </ul>
@@ -50,37 +51,82 @@
 
     </header>
 
-
+    
     <main class="product-menu">
-        <div class="container">
-
+        <div class="container" id="tienda">
+            <div class="contenedor">
             <div class="product">
-                <h2 class="title">Tiendas</h2>
-                <img class="hoja" src="images/esquina.png" alt="">
+                <h2 class="titulo">Tiendas</h2>
+            </div>
+            <!-- selector de categoria -->
+            <div class="select-zone">
+                <label for="opciones">Selecciona una categoria:</label>
+                <select id="opciones">
+                    <option value="cajapresentacion" selected disabled>seleccione una categoria...</option>
+                    <option value="pro1">Figuras</option>
+                    <option value="pro2">Comidas</option>
+                    <option value="pro3">Veterinarios</option>
+                    <option value="pro4">Tecnologia</option>
+                </select>
+             </div>
             </div>
 
-        <!--Barrera de informacion del menu o contenido-->
-            <div id="perfiles" class="menu-nav">
-                <div id="pro1" class="tab active">figuras</div>
-                <div id="pro2" class="tab">comidas</div>
-                <div id="pro3" class="tab">veterinarios</div>
-                <div id="pro4" class="tab">tecnologia</div>
-            </div>
+            <br>
 
-       <!--Pagina 1 de tiendas-->
+        <!--categorias-->
+        <div class="cajapresentacion" id="cajacategory">
+            <div class="column">
+
+                <div class="cajabox figuras">
+                    <img src="images/categoriafiguras.jpg" alt="">
+                    <h2>Figuras</h2>
+                    <p>
+                        Categoria donde hay tiendas que venden figuras de coleccion o decorativos
+                    </p>
+                </div>
+
+                <div class="cajabox veterinarios">
+                    <img src="images/veterinario.jpg" alt="">
+                    <h2>Veterinarios</h2>
+                    <p>
+                        Categoria donde hay tiendas o veterinarios donde se pueden atender sus mascotas o accesorios para tu mascotas
+                    </p>
+                </div>
+
+                <div class="cajabox comidas">
+                    <img src="images/comida.jpg" alt="">
+                    <h2>Comidas</h2>
+                    <p>
+                        Categoria donde hay tiendas o restaurantes de cualquier tipo de comida
+                    </p>
+                </div>
+
+                <div class="cajabox tecnologias">
+                    <img src="images/tecnologia.jpg" alt="">
+                    <h2>Tecnologías</h2>
+                    <p>
+                        Categoria donde hay tiendas que vende o reparan cosas tecnologicas
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+       <!--Pagina 1 de carga de figuras-->
             <div class="pro1 tab-content">
                 <div class="box-container-1">
 
                     <div class="box-1">
                         <div class="image">
-                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                            <img src="perfiles fotos/nada.png" alt="">
                         </div>
                         <div class="content">
                             <h3>Nada por el momento</h3>
                             <p>
+                                []
                                 <br>
                                 <a href="">
-                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                    <!--<span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span>-->
                                 </a>
                             </p>
                         </div>
@@ -89,20 +135,21 @@
                 </div>
             </div>
 
-        <!--Pagina 2 tiendas 2-->
+        <!--Pagina 2 de carga de comida-->
             <div class="pro2 tab-content">
                 <div class="box-container-2">
 
                     <div class="box-1">
                         <div class="image">
-                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                            <img src="perfiles fotos/nada.png" alt="">
                         </div>
                         <div class="content">
                             <h3>Nada por el momento</h3>
                             <p>
+                                []
                                 <br>
                                 <a href="">
-                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                    <!--<span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span>-->
                                 </a>
                             </p>
                         </div>
@@ -111,20 +158,21 @@
                 </div>
             </div>
 
-        <!--Pagina 3 de carga con contenido de los productos-->
+        <!--Pagina 3 de carga de veterinarios-->
             <div class="pro3 tab-content">
                 <div class="box-container-3">
 
                     <div class="box-3">
                         <div class="image">
-                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                            <img src="perfiles fotos/nada.png" alt="">
                         </div>
                         <div class="content">
                             <h3>Nada por el momento</h3>
                             <p>
+                                []
                                 <br>
                                 <a href="">
-                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                    <!--<span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span>-->
                                 </a>
                             </p>
                         </div>
@@ -139,14 +187,15 @@
 
                     <div class="box-4">
                         <div class="image">
-                            <img src="perfiles fotos/mugiwara_boy.png" alt="">
+                            <img src="perfiles fotos/nada.png" alt="">
                         </div>
                         <div class="content">
                             <h3>Nada por el momento</h3>
                             <p>
+                                []
                                 <br>
                                 <a href="">
-                                    <!-- <span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span> -->
+                                    <!--<span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span>-->
                                 </a>
                             </p>
                         </div>
@@ -155,26 +204,29 @@
                 </div>
             </div>
 
+            <div class="pagination">
+                <button onclick="cambiarPagina(-1)">Anterior</button>
+                <span id="paginaActual">1</span>
+                <button onclick="cambiarPagina(1)">Siguiente</button>
+            </div>
 
         </div>
     </main>
-
-    <div id="info" class="informacion">
-        <h1>Como añadir mi cuenta?</h1>
-        <p>
-            Para agregar tu pyme debes hablarme o consultarme por whatsapp.
-        </p>
-        <a href="https://api.whatsapp.com/send?phone=+56934532754&text=Quiero%20saber%20como%20agregar%20mi%20cuenta%20de%20tienda%20a%20tu%20pagina%20web?" class="btn"><img src="images/whatsapp.png" alt=""><br>Whatsapp</a>
-    </div>
 
     <footer class="footer container">
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
-        <img class="logo-2" src="images/logo.png" alt="">
+        <div id="info" class="informacion">
+            <h1>Como añadir mi cuenta?</h1>
+            <p>
+                Para agregar tu pyme debes hablarme o consultarme por Instagram.
+            </p>
+            <a href="https://www.instagram.com/direct/t/103088311302629/" class="btn"><img src="images/insta.png" alt=""><br>Instagram</a>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
