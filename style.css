@@ -453,7 +453,7 @@ footer {
   
   .column {
     display: grid;
-    grid-template-columns: repeat(4, minmax(170px, 1fr));
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
     gap: 10px;
   }
   
@@ -463,6 +463,7 @@ footer {
     overflow: hidden;
     margin: 10px;
     width: 250px;
+    height: auto;
   }
   
   .cajabox img {
@@ -549,6 +550,11 @@ footer {
         margin-bottom: 10px;
     }
 
+    .cajabox {
+        height: auto;
+        width: 94%;
+    }
+
     .column {
         grid-template-columns: repeat(2, minmax(170px, 1fr)); 
         gap: 10px;
@@ -558,8 +564,8 @@ footer {
     .box-container-2,
     .box-container-3,
     .box-container-4 {
-        grid-template-columns: repeat(3, minmax(170px, 1fr));
-        gap: 10px;
+        grid-template-columns: repeat(3, minmax(160px, 1fr));
+        gap: 9px;
     }
 
     .box-1,
