@@ -297,7 +297,7 @@ body {
 .image img {
     border: 5px solid #17e300;
     border-radius: 100%;
-    width: 180px;
+    width: 100%;
     height: auto;
 }
 
