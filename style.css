@@ -568,7 +568,7 @@ footer {
     .box-container-3,
     .box-container-4 {
         grid-template-columns: repeat(3, minmax(160px, 1fr));
-        gap: 10px;
+        gap: 2px;
     }
 
     .box-1,
