@@ -220,13 +220,14 @@ body {
 .box-2,
 .box-3,
 .box-4 {
+    border: 3px solid #1aff00;
     margin: 10px;
     background-image: url(images/bg-p.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: 100;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     display: none;
