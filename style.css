@@ -552,7 +552,7 @@ footer {
 
     .cajabox {
         height: auto;
-        width: 94%;
+        width: 90%;
     }
 
     .column {
@@ -565,7 +565,7 @@ footer {
     .box-container-3,
     .box-container-4 {
         grid-template-columns: repeat(3, minmax(160px, 1fr));
-        gap: 9px;
+        gap: 10px;
     }
 
     .box-1,
