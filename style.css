@@ -210,7 +210,11 @@ body {
 .box-container-1,
 .box-container-2,
 .box-container-3,
-.box-container-4 {
+.box-container-4,
+.box-container-5,
+.box-container-6,
+.box-container-7,
+.box-container-8 {
     display: grid;
     grid-template-columns: repeat(6, minmax(170px, 1fr));
     gap: 10px;
@@ -219,7 +223,11 @@ body {
 .box-1,
 .box-2,
 .box-3,
-.box-4 {
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8 {
     border: 3px solid #1aff00;
     margin: 10px;
     background-image: url(images/bg-p.jpg);
@@ -233,58 +241,19 @@ body {
     display: none;
 }
 
-.box-1:nth-child(1),
-.box-1:nth-child(2),
-.box-1:nth-child(3),
-.box-1:nth-child(4),
-.box-1:nth-child(5),
-.box-1:nth-child(6),
-.box-1:nth-child(7),
-.box-1:nth-child(8),
-.box-1:nth-child(9),
-.box-1:nth-child(10),
-.box-1:nth-child(11),
-.box-1:nth-child(12),
-.box-1:nth-child(13),
-.box-1:nth-child(14),
-.box-1:nth-child(15),
-.box-1:nth-child(16),
-.box-1:nth-child(17),
-.box-1:nth-child(18),
-.box-1:nth-child(19),
-.box-1:nth-child(20),
-.box-1:nth-child(21),
-.box-1:nth-child(22),
-.box-1:nth-child(23),
-.box-1:nth-child(24),
-.box-1:nth-child(25),
-.box-1:nth-child(26),
-.box-1:nth-child(27),
-.box-1:nth-child(28),
-.box-1:nth-child(29),
-.box-1:nth-child(30) {
+.box-1:nth-child(n) {
     display: inline-block;
 }
 
-.box-2:nth-child(1),
-.box-2:nth-child(2),
-.box-2:nth-child(3),
-.box-2:nth-child(4),
-.box-2:nth-child(5) {
+.box-2:nth-child(n){
     display: inline-block;
 }
 
-.box-3:nth-child(1),
-.box-3:nth-child(2),
-.box-3:nth-child(3),
-.box-3:nth-child(4) {
+.box-3:nth-child(n){
     display: inline-block;
 }
 
-.box-4:nth-child(1),
-.box-4:nth-child(2),
-.box-4:nth-child(3),
-.box-4:nth-child(4) {
+.box-4:nth-child(n){
     display: inline-block;
 }
 
@@ -566,7 +535,11 @@ footer {
     .box-container-1,
     .box-container-2,
     .box-container-3,
-    .box-container-4 {
+    .box-container-4,
+    .box-container-5,
+    .box-container-6,
+    .box-container-7,
+    .box-container-8{
         grid-template-columns: repeat(3, minmax(160px, 1fr));
         gap: 2px;
     }
@@ -574,7 +547,11 @@ footer {
     .box-1,
     .box-2,
     .box-3,
-    .box-4 {
+    .box-4,
+    .box-5,
+    .box-6,
+    .box-7,
+    .box-8  {
         width: 90%;
         height: auto;
     }
