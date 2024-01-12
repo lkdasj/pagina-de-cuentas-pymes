@@ -63,6 +63,7 @@
                 <label for="opciones">Selecciona una categoria:</label>
                 <select id="opciones">
                     <option value="cajapresentacion" selected disabled>seleccione una categoria...</option>
+                    <option value="pro0">Mostrar todas las tiendas</option>
                     <option value="pro1">Merchandising</option>
                     <option value="pro2">Comidas</option>
                     <option value="pro3">Veterinarios</option>
@@ -70,84 +71,123 @@
                     <option value="pro5">Comics y Mangas</option>
                     <option value="pro6">Cosplayers y Cosmakers</option>
                     <option value="pro7">Juegos de mesa y rol</option>
-                    <option value="pro8">Ilustradores</option>
+                    <option value="pro8">Ilustradores y Artesanos</option>
                 </select>
              </div>
             </div>
 
             <br>
 
-        <!--categorias-->
-        <div class="cajapresentacion" id="cajacategory">
-            <div class="column">
+            <!--categorias-->
+            <div class="cajapresentacion" id="cajacategory">
+                <div class="column">
 
-                <div class="cajabox figuras">
-                    <img src="images/categoriafiguras.jpg" alt="">
-                    <h2>Merchandising</h2>
-                    <p>
-                        Categoría donde se encuentran tiendas que ofrecen camisetas, figuras de acción, posters y otros artículos coleccionables.                    </p>
+                    <div class="cajabox figuras">
+                        <img src="images/categoriafiguras.jpg" alt="">
+                        <h2>Merchandising</h2>
+                        <p>
+                            Categoría donde se encuentran tiendas que ofrecen camisetas, figuras de acción, posters y otros artículos coleccionables.                    </p>
+                    </div>
+
+                    <div class="cajabox veterinarios">
+                        <img src="images/veterinario.jpg" alt="">
+                        <h2>Veterinarios</h2>
+                        <p>
+                            Categoría que incluye tiendas y profesionales veterinarios donde puedes encontrar atención para tus mascotas y accesorios relacionados.                    </p>
+                    </div>
+
+                    <div class="cajabox comidas">
+                        <img src="images/comida.jpg" alt="">
+                        <h2>Comidas</h2>
+                        <p>
+                            Categoría que abarca tiendas y restaurantes de diversos tipos de comida.
+                        </p>
+                    </div>
+
+                    <div class="cajabox tecnologias">
+                        <img src="images/tecnologia.jpg" alt="">
+                        <h2>Tecnologías</h2>
+                        <p>
+                            Categoría que engloba tiendas que venden o reparan productos tecnológicos.                   
+                        </p>
+                    </div>
+
+                    <div class="cajabox mangas">
+                        <img src="images/mangas y comics.png" alt="">
+                        <h2>Comics y Mangas</h2>
+                        <p>
+                            Categoría donde encuentras tiendas especializadas en la venta de Anime, Mangas y Comics.
+                        </p>
+                    </div>
+
+                    <div class="cajabox cosplayers">
+                        <img src="images/cosplayes.jpg" alt="">
+                        <h2>Cosplayers y Cosmakers</h2>
+                        <p>
+                            Categoría que incluye tiendas y profesionales dedicados al mundo del cosplay y la creación de cosplay.
+                        </p>
+                    </div>
+
+                    <div class="cajabox mesa">
+                        <img src="images/juegos de mesa.jpg" alt="">
+                        <h2>jugos de mesa y roles</h2>
+                        <p>
+                            Categoría donde se encuentran tiendas especializadas en la venta de juegos de mesa y juegos de roles.
+                        </p>
+                    </div>
+
+                    <div class="cajabox tecnologias">
+                        <img src="images/ilustraciones.jpg" alt="">
+                        <h2>Ilustradores y Artesanos</h2>
+                        <p>
+                            Categoría que incluye tiendas especializadas en la venta de ilustraciones, arte visual y artesanías.
+                        </p>
+                    </div>
+
+
                 </div>
-
-                <div class="cajabox veterinarios">
-                    <img src="images/veterinario.jpg" alt="">
-                    <h2>Veterinarios</h2>
-                    <p>
-                        Categoría que incluye tiendas y profesionales veterinarios donde puedes encontrar atención para tus mascotas y accesorios relacionados.                    </p>
-                </div>
-
-                <div class="cajabox comidas">
-                    <img src="images/comida.jpg" alt="">
-                    <h2>Comidas</h2>
-                    <p>
-                        Categoría que abarca tiendas y restaurantes de diversos tipos de comida.
-                    </p>
-                </div>
-
-                <div class="cajabox tecnologias">
-                    <img src="images/tecnologia.jpg" alt="">
-                    <h2>Tecnologías</h2>
-                    <p>
-                        Categoría que engloba tiendas que venden o reparan productos tecnológicos.                   
-                    </p>
-                </div>
-
-                <div class="cajabox mangas">
-                    <img src="images/mangas y comics.png" alt="">
-                    <h2>Comics y Mangas</h2>
-                    <p>
-                        Categoría donde encuentras tiendas especializadas en la venta de Anime, Mangas y Comics.
-                    </p>
-                </div>
-
-                <div class="cajabox cosplayers">
-                    <img src="images/cosplayes.jpg" alt="">
-                    <h2>Cosplayers y Cosmakers</h2>
-                    <p>
-                        Categoría que incluye tiendas y profesionales dedicados al mundo del cosplay y la creación de cosplay.
-                    </p>
-                </div>
-
-                <div class="cajabox mesa">
-                    <img src="images/juegos de mesa.jpg" alt="">
-                    <h2>jugos de mesa y roles</h2>
-                    <p>
-                        Categoría donde se encuentran tiendas especializadas en la venta de juegos de mesa y juegos de roles.
-                    </p>
-                </div>
-
-                <div class="cajabox tecnologias">
-                    <img src="images/ilustraciones.jpg" alt="">
-                    <h2>Ilustradores</h2>
-                    <p>
-                        Categoría que engloba tiendas especializadas en la venta de ilustraciones y arte visual.
-                    </p>
-                </div>
-
-
             </div>
-        </div>
 
-       <!--Pagina 1 de carga de figuras-->
+            <!--Pagina 0 de carga de todas las tiendas-->
+            <div class="pro0 tab-content">
+                <div class="box-container-0">
+
+                    <div class="box-0">
+                        <div class="image">
+                            <img src="perfiles fotos/Amanitaneko.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Amanita Neko</h3>
+                            <p>
+                                Ventas de figuras, cuadros, etc
+                                <br>
+                                <a href="https://ignacio-j3.github.io/Amanita_neko/">
+                                    <span class="buy"><img src="images/suma.png" alt=""><br>Ver mas</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="box-0">
+                        <div class="image">
+                            <img src="perfiles fotos/fluffy.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Fluffy Tiendita</h3>
+                            <p>
+                                Ventas de accesorios y articulos inspirados en la cultura japonesa
+                                <br>
+                                <a href="https://ignacio-j3.github.io/fluffy.tiendita/">
+                                    <span class="buy"><img src="images/suma.png" alt=""><br>Ver mas</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Pagina 1 de carga de figuras-->
             <div class="pro1 tab-content">
                 <div class="box-container-1">
 
@@ -161,18 +201,17 @@
                                 Ventas de figuras, cuadros, etc
                                 <br>
                                 <a href="https://ignacio-j3.github.io/Amanita_neko/">
-                                    <span class="buy"><img src="images/" alt=""><br>Ver mas</span>
+                                    <span class="buy"><img src="images/suma.png" alt=""><br>Ver mas</span>
                                 </a>
                             </p>
                         </div>
                     </div>
 
 
-
                 </div>
             </div>
 
-        <!--Pagina 2 de carga de comida-->
+            <!--Pagina 2 de carga de comida-->
             <div class="pro2 tab-content">
                 <div class="box-container-2">
 
@@ -195,7 +234,7 @@
                 </div>
             </div>
 
-        <!--Pagina 3 de carga de veterinarios-->
+            <!--Pagina 3 de carga de veterinarios-->
             <div class="pro3 tab-content">
                 <div class="box-container-3">
 
@@ -218,7 +257,7 @@
                 </div>
             </div>
         
-        <!--pgina 4 de carga de tecnologia-->
+            <!--pgina 4 de carga de tecnologia-->
             <div class="pro4 tab-content">
                 <div class="box-container-4">
 
@@ -270,15 +309,15 @@
 
                     <div class="box-6">
                         <div class="image">
-                            <img src="perfiles fotos/nada.png" alt="">
+                            <img src="perfiles fotos/fluffy.png" alt="">
                         </div>
                         <div class="content">
-                            <h3>Nada por el momento</h3>
+                            <h3>Fluffy Tiendita</h3>
                             <p>
-                                []
+                                Ventas de accesorios y articulos inspirados en la cultura japonesa
                                 <br>
-                                <a href="">
-                                    <!--<span class="buy"><img src="images/insta.png" alt=""><br>Ir al perfil de Instagram</span>-->
+                                <a href="https://ignacio-j3.github.io/fluffy.tiendita/">
+                                    <span class="buy"><img src="images/suma.png" alt=""><br>Ver mas</span>
                                 </a>
                             </p>
                         </div>
@@ -310,7 +349,7 @@
                 </div>
             </div>
 
-            <!--pgina 8 de carga de ilustradores-->
+            <!--pgina 8 de carga de ilustradores y artesanos-->
             <div class="pro8 tab-content">
                 <div class="box-container-8">
 

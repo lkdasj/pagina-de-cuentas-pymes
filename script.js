@@ -52,7 +52,7 @@ function showPage(page, category) {
     const allCategories = document.querySelectorAll('.tab-content');
 
     allCategories.forEach((cat) => {
-        const boxes = cat.querySelectorAll('.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8');
+        const boxes = cat.querySelectorAll('.box-0, .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8');
         boxes.forEach((box) => {
             box.style.display = "none";
         });
@@ -63,7 +63,7 @@ function showPage(page, category) {
         return;
     }
 
-    const boxes = category.querySelectorAll('.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8');
+    const boxes = category.querySelectorAll('.box-0, .box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8');
     const startIndex = (page - 1) * (isMobile() ? boxesPerPageMobile : boxesPerPage);
     const endIndex = startIndex + (isMobile() ? boxesPerPageMobile : boxesPerPage);
 
