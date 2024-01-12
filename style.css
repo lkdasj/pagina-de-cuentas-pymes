@@ -246,27 +246,35 @@ body {
 .box-0:nth-child(n){
     display: inline-block;
 }
-.box-1:nth-child(n) {
+
+.box-1:nth-child(n){
     display: inline-block;
 }
+
 .box-2:nth-child(n){
     display: inline-block;
 }
+
 .box-3:nth-child(n){
     display: inline-block;
 }
+
 .box-4:nth-child(n){
     display: inline-block;
 }
+
 .box-5:nth-child(n){
     display: inline-block;
 }
+
 .box-6:nth-child(n){
     display: inline-block;
 }
+
 .box-7:nth-child(n){
     display: inline-block;
 }
+
 .box-8:nth-child(n){
     display: inline-block;
 }
