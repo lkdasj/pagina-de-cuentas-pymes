@@ -362,6 +362,12 @@ footer {
     justify-content: center;
 }
 
+.actualizacion {
+    color: #5eff00;
+    padding: 40px;
+    
+}
+
 .logo-2 {
     padding: 30px;
     width: 300px;
